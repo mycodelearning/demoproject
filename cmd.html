@@ -1,0 +1,60 @@
+
+
+==== Complete Git & Github Tutorial ====
+
+Step 1 :
+- Download git 
+- Create Account on github (https://github.com/)
+
+- Know About Repositories
+- Create a new Repositories
+
+
+
+Step 2: 
+Know the all git Bash <command>
+
+----Git Bash Commands----
+Git Bash comes with a set of commands to perform various operations related to code management and collaboration. 
+
+
+Here are some essential Git Bash commands:
+1. git init: Initializes the new git repository. 
+2. git clone: “git clone“ command is used to clone the repositories which are already available in the remote repository. 
+3. git add: Files present in the working area will move to the staging area. 
+4. git commit: Files that are available in the staging area will be committed to the local repository. 
+5. git status: This command shows the status of the working tree and the staging area.
+6. git config: “git config” will help you to configure the username and email id.
+
+
+Steps to connect Git Bash.
+      
+ Step 1: Configuring Git
+
+   git config --global user.name "mycodelearning"
+   git config --global user.email "mycodelearnings@gmail.com"
+
+ Step 2: Commit Repository in Git Bash
+
+a> Initialize the local directory as a Git repository.
+
+  - git init 
+
+ b> Stage the files for the first commit by adding them to the local repository
+  git add .
+
+ c> By “git status“ you can see the staged files after that Commit the files that you’ve staged in your local repository.
+
+    git commit -m "First commit"
+
+
+ d> Now After the “git status” command, it can be seen that nothing to commit is left, Hence all files have been committed.
+
+ e> Step 4: Connect the local Repository to GitHub
+    git remote add origin repository_URL 
+
+  f> Push the changes in your local repository to GitHub.
+   - git push origin master
+
+
+
